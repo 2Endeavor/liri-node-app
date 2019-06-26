@@ -33,27 +33,24 @@ _do-what-it-says_
 # Description of Allowed Commands:
 
 __movie-this:__ provides information regarding a specific movie. 
-movie-this: provides information regarding a specific movie. If no movie is requested the system will suggest a movie.
+If no movie is requested the system will suggest a movie.
 
 
   	Example:
 	node liri.js movie-this “limitless”
 
-__concert-this:__ provides information concerts when given a specific performer or group. 
+
+__concert-this:__ provides information about concerts when given a specific performer or group. 
 	
     Example:
 	node liri.js concert-this “toby keith”
 
-spotify-this-song: provides information regarding a specific song. If no song is entered, the program will provide information for the song “The Sign” by Ace of Base.
 
+spotify-this-song: provides information regarding a specific song. If no song is entered, the program will provide information for the song “The Sign” by Ace of Base.
 
 	Example:  node liri.js spotify-this-song “yesterday”
   
   
-If no song is passed in, the program will provide information on the song "The Sign" by Ace of Base.
-
-
-
 do-what-it-says: will take a request from text stored in the random.txt file and execute the request.
 
 	Example:
@@ -61,21 +58,21 @@ do-what-it-says: will take a request from text stored in the random.txt file and
 
 
 # Example of concert-this "toby keith"
-![Example of concert-this code when called](images/concert-this.jpg)
+![Example of concert-this code when called](./images/concert-this.jpg)
 
 # Example of movie-this "notting hill"
-![Example of movie-this code when called](images/movie-this.jpg)
+![Example of movie-this code when called](./images/movie-this.jpg)
 
 # Example of "do-what-it-says"
-![Example of do-what-it-says code when called](images/do-what-I-Say.jpg)
+![Example of do-what-it-says code when called](./images/do-what-I-Say.jpg)
 
 # Example of spotify-this-song A Little Dive Bar in Dahlonega"
-![Example of spotify-this-song code when called](images/spotify-this-song.jpg)
+![Example of spotify-this-song code when called](./images/spotify-this-song.jpg)
 
 
 # Example of Response to "spotify-this-song" when Provided No Parameters:
-![Example of spotify-this-song with default input of The Sign by Ace of Base](images/noSongPassedIn.jpg)
+![Example of spotify-this-song with default input of The Sign by Ace of Base](./images/noSongPassedIn.jpg)
 
 
 # Example of Response to "movie-this" when Provided No Parameters:
-![Example of movie-this response when provided no parameters](images/movie-thatDefaultResponse.jpg)
+![Example of movie-this response when provided no parameters](./images/movie-thatDefaultResponse.jpg)
