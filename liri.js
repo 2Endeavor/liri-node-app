@@ -28,6 +28,10 @@ function concertThis(term){
 
 }
 function movieThis(term){
+  if(term === undefined){
+    console.log("If you haven't watch 'Mr. Nobody' then you should! It's on Netflix");
+    return;
+  }
   var queryURL = "http://www.omdbapi.com/?apikey=trilogy&t="+ term;
   axios.get(queryURL)
   .then(function (response){
