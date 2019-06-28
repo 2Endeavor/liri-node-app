@@ -58,7 +58,7 @@ do-what-it-says: will take a request from text stored in the random.txt file and
 
 
 # Example of concert-this "toby keith"
-![Example of concert-this code when called](./images/concert-this.JPG)
+![Example of concert-this code when called](./images/concert-this.jpg)
 
 # Example of movie-this "notting hill"
 ![Example of movie-this code when called](./images/movie-this.jpg)
